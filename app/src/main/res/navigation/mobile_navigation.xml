@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_cadastro"
         android:name="com.example.comandadigital.ui.Cadastro.CadastroFragment"
         android:label="@string/menu_Cadastro"
         tools:layout="@layout/fragment_cadastro" />
@@ -40,4 +40,10 @@
         android:name="com.example.comandadigital.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_atendimento"
+        android:name="com.example.comandadigital.ui.atendimento.AtendimentoFragment"
+        android:label="Atendimento"
+        tools:layout="@layout/fragment_atendimento"
+        />
 </navigation>
